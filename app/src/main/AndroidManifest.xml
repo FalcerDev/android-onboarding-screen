@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        android:fullBackupContent=""
+        android:fullBackupContent="false"
         tools:targetApi="m">
         <activity android:name=".ui.onboard.OnBoardActivity">
             <intent-filter>
