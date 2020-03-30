@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">On Boarding Screen</string>
+    <string name="content_description_card_image">Content Description Card Image</string>
+    <string name="ok">OK</string>
 </resources>

@@ -3,18 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="dev.falcer.onboardingscreen">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="false"
+        android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        android:fullBackupContent="false"
         tools:targetApi="m">
+        <activity android:name=".ui.animation.AnimationActivity"></activity>
         <activity android:name=".ui.onboard.OnBoardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
